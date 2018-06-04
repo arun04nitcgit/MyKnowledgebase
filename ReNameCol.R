@@ -9,7 +9,6 @@ names(newprice)[1]<-paste("premium")
 names(newprice)[1]<-"premium"
 names(newprice) <- c("premium","change","newprice")
 
-
 cols <- c("premium","change","newprice")
 colnames(dataframe) <- cols
 colnames(df)[which(colnames(df) %in% c("bad","worst") )] <- c("good","best")
