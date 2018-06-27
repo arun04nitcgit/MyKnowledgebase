@@ -3,18 +3,15 @@ library(ggplot2)
  
 # The iris dataset is proposed by R
 head(iris)
- 
 # basic scatterplot
 ggplot(iris, aes(x=Sepal.Length, y=Sepal.Width)) + 
     geom_point()
 
-# library
+#library
 library(ggplot2)
- 
-# The iris dataset
+ #The iris dataset
 head(iris)
- 
-# use options!
+ # use options!
 ggplot(iris, aes(x=Sepal.Length, y=Sepal.Width)) + 
     geom_point(
         color="red",
@@ -27,10 +24,8 @@ ggplot(iris, aes(x=Sepal.Length, y=Sepal.Width)) +
 
 # library
 library(ggplot2)
- 
 # The mtcars dataset is proposed in R
 head(mtcars)
- 
 # Color and shape depend on factor (categorical variable)
 ggplot(iris, aes(x=Sepal.Length, y=Sepal.Width, color=Species, shape=Species)) + 
     geom_point(size=6, alpha=0.6)
